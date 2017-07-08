@@ -1,0 +1,110 @@
+# sent_id = dev-s1
+# text = Начальный ролик, или опенинг (от, сокр.: OP), как правило, представляет собой анимацию, изображающую главных героев аниме и отражающую его стиль.
+1	Начальный	НАЧАЛЬНЫЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	ролик	РОЛИК	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	или	ИЛИ	CCONJ	CC	_	5	cc	_	_
+5	опенинг	ОПЕНИНГ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No
+7	от	ОТ	ADP	IN	_	11	case	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	сокр.	СОКР.	ADV	RB	_	11	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	9	punct	_	_
+11	OP	OP	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	)	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	как	КАК	ADP	IN	_	15	case	_	_
+15	правило	ПРАВИЛО	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	представляет	ПРЕДСТАВЛЯТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	собой	СЕБЯ	PRON	PRP	Case=Ins|Reflex=Yes	17	iobj	_	_
+19	анимацию	АНИМАЦИЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	изображающую	ИЗОБРАЖАТЬ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	acl	_	_
+22	главных	ГЛАВНЫЙ	ADJ	JJL	Animacy=Anim|Case=Acc|Number=Plur	23	amod	_	_
+23	героев	ГЕРОЙ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+24	аниме	АНИМЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	и	И	CCONJ	CC	_	26	cc	_	_
+26	отражающую	ОТРАЖАТЬ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	conj	_	_
+27	его	ЕГО	DET	PRP$	Person=3	28	det	_	_
+28	стиль	СТИЛЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = dev-s2
+# text = Стропило, означающее победителя, окрашено в красный цвет -- цвет гербового щита Москвы, стропило, означающее побеждённого, имеет зелёный цвет -- цвет ислама.
+1	Стропило	СТРОПИЛО	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	означающее	ОЗНАЧАТЬ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	_
+4	победителя	ПОБЕДИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	окрашено	ОКРАСИТЬ	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	В	ADP	IN	_	9	case	_	_
+8	красный	КРАСНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	цвет	ЦВЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	--	--	PUNCT	--	_	9	punct	_	_
+11	цвет	ЦВЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	_
+12	гербового	ГЕРБОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	amod	_	_
+13	щита	ЩИТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Москвы	МОСКВА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	стропило	СТРОПИЛО	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	означающее	ОЗНАЧАТЬ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
+19	побеждённого	ПОБЕДИТЬ	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	имеет	ИМЕТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+22	зелёный	ЗЕЛЕНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	amod	_	_
+23	цвет	ЦВЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	--	--	PUNCT	--	_	23	punct	_	_
+25	цвет	ЦВЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	appos	_	_
+26	ислама	ИСЛАМ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = dev-s3
+# text = Он и являлся &#39;&#39; полным властелином всей Ахсауской местности &#39;&#39; и родоначальником Телакуровых, построивших здесь свой замок.
+1	Он	ОН	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	и	И	CCONJ	CC	_	6	cc:preconj	_	_
+3	являлся	ЯВЛЯТЬСЯ	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	cop	_	_
+4	&#39;&#39;	&#39;&#39;	PUNCT	``	_	6	punct	_	_
+5	полным	ПОЛНЫЙ	ADJ	JJL	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	amod	_	_
+6	властелином	ВЛАСТЕЛИН	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	всей	ВЕСЬ	DET	DT	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	det	_	_
+8	Ахсауской	АХСАУСКИЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	местности	МЕСТНОСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	12	punct	_	_
+11	и	И	CCONJ	CC	_	12	cc	_	_
+12	родоначальником	РОДОНАЧАЛЬНИК	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	_
+13	Телакуровых	ТЕЛАКУРОВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	построивших	ПОСТРОИТЬ	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	_
+16	здесь	ЗДЕСЬ	ADV	RB	_	15	advmod	_	_
+17	свой	СВОЙ	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Reflex=Yes	18	det	_	_
+18	замок	ЗАМОК	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = dev-s4
+# text = Сержант посоветовал Баклсу пойти на работу водителем машины скорой помощи.
+1	Сержант	СЕРЖАНТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	посоветовал	ПОСОВЕТОВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Баклсу	БАКЛС	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+4	пойти	ПОЙТИ	VERB	VB	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
+5	на	НА	ADP	IN	_	6	case	_	_
+6	работу	РАБОТА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	водителем	ВОДИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	advmod	_	_
+8	машины	МАШИНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	скорой	СКОРЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+10	помощи	ПОМОЩЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s5
+# text = Барыкина иногда называют ``отцом русского регги &#39;&#39;.
+1	Барыкина	БАРЫКИН	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+2	иногда	ИНОГДА	ADV	RB	_	3	advmod	_	_
+3	называют	НАЗЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	``	``	PUNCT	``	_	5	punct	_	SpaceAfter=No
+5	отцом	ОТЕЦ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	advmod	_	_
+6	русского	РУССКИЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	amod	_	_
+7	регги	РЕГГИ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
