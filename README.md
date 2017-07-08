@@ -1,4 +1,4 @@
-# CoNLL-U [![GoDoc](https://godoc.org/github.com/bureaucratic-labs/conllu?status.svg)](https://godoc.org/github.com/bureaucratic-labs/conllu)
+# CoNLL-U [![GoDoc](https://godoc.org/github.com/bureaucratic-labs/conllu?status.svg)](https://godoc.org/github.com/bureaucratic-labs/conllu) [![Build Status](https://travis-ci.org/bureaucratic-labs/conllu.svg?branch=master)](https://travis-ci.org/bureaucratic-labs/conllu)
 CoNLL-U parser for Go 
 
 # Installation
