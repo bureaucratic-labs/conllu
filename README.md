@@ -1,5 +1,6 @@
 # CoNLL-U [![GoDoc](https://godoc.org/github.com/bureaucratic-labs/conllu?status.svg)](https://godoc.org/github.com/bureaucratic-labs/conllu) [![Build Status](https://travis-ci.org/bureaucratic-labs/conllu.svg?branch=master)](https://travis-ci.org/bureaucratic-labs/conllu)
-CoNLL-U parser for Go 
+CoNLL-U format parser for Go language.  
+For more info on format, see [Universal Dependencies website](http://universaldependencies.org/format.html) 
 
 # Installation
 
